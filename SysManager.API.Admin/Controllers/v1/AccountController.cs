@@ -5,7 +5,7 @@ using SysManager.Application.Services;
 using System;
 using System.Threading.Tasks;
 
-namespace SysManager.API.Admin.Controllers
+namespace SysManager.API.Admin.Controllers.v1
 {
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
@@ -20,19 +20,22 @@ namespace SysManager.API.Admin.Controllers
         [HttpPost("create-account")]
         public async Task<IActionResult> Post([FromBody] UserPostRequest request)
         {
-            Console.WriteLine("Inicio do processo");
             var response = await _userService.PostAsync(request);
             return Utils.Convert(response);
         }
 
-        [HttpPost("login")]
-        public async Task<IActionResult> PostLogin([FromBody] UserPostRequest request)
+        [HttpPut("recovery-account")]
+        public async Task<IActionResult> Put([FromBody] UserPutRequest request)
         {
-            Console.WriteLine("\r\n Inicio do processo... \r\n");
-            Console.WriteLine("Final do processo. \r\n");
-
-            return Utils.Convert(new ResultData(false));
+            var response = await _userService.PutAsync(request);
+            return Utils.Convert(response);
         }
 
+        [HttpPost("login")]
+        public async Task<IActionResult> PostLogin([FromBody] UserPostLoginRequest request)
+        {
+            var response = await _userService.PostLoginAsync(request);
+            return Utils.Convert(response);
+        }
     }
 }

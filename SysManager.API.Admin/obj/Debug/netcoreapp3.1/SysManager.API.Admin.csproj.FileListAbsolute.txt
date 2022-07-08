@@ -30,3 +30,17 @@ F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Ad
 F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\obj\Debug\netcoreapp3.1\SysManager.API.Admin.dll
 F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\obj\Debug\netcoreapp3.1\SysManager.API.Admin.pdb
 F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\obj\Debug\netcoreapp3.1\SysManager.API.Admin.genruntimeconfig.cache
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\Dapper.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\MySql.Data.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.API.Admin\bin\Debug\netcoreapp3.1\FluentValidation.dll
