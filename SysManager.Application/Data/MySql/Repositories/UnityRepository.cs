@@ -44,7 +44,7 @@ namespace SysManager.Application.Data.MySql.Repositories
         }
         public async Task<UnityEntity> GetByIdAsync(Guid id)
         {
-            var _sql = $"SELECT id, name, active from unity WHERE id = '{id}' limit 1";
+            var _sql = $"SELECT id, name, active from unity WHERE id = '{id}' and active = true limit 1";
 
             using (var cnx = _context.Connection())
             {

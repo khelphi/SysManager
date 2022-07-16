@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SysManager.API.Admin.Controllers.v1
 {
-    //[Authorize]
+    [Authorize]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
     public class UnityController

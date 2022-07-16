@@ -7,6 +7,12 @@
     <StartupObject />
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Contracts\Products\**" />
+    <EmbeddedResource Remove="Contracts\Products\**" />
+    <None Remove="Contracts\Products\**" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.1.0" />
@@ -17,8 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Contracts\Products\Response\" />
-    <Folder Include="Contracts\Products\Request\" />
     <Folder Include="Contracts\Users\Response\" />
   </ItemGroup>
 

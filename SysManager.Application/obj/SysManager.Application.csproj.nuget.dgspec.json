@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj": {}
+    "F:\\Meus Projetos\\Cursos Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj": {}
   },
   "projects": {
-    "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj": {
+    "F:\\Meus Projetos\\Cursos Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj",
+        "projectUniqueName": "F:\\Meus Projetos\\Cursos Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj",
         "projectName": "SysManager.Application",
-        "projectPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj",
+        "projectPath": "F:\\Meus Projetos\\Cursos Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\SysManager.Application.csproj",
         "packagesPath": "C:\\Users\\Denis Fernandes\\.nuget\\packages\\",
-        "outputPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\obj\\",
+        "outputPath": "F:\\Meus Projetos\\Cursos Tecnologia\\BackEnd\\Turma A\\SysManagerA\\SysManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

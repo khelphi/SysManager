@@ -1,5 +1,6 @@
 ﻿using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
+using SysManager.Application.Contracts;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,6 +12,14 @@ namespace SysManager.Application.Helpers
 {
     public static class Utils
     {
+        public static ResultData SuccessData(DefaultResponse _data)
+        {
+            bool _error = _data.HasErrors == false ? true : false;
+
+            var result = new ResultData(_data, _error);
+            return result;
+        }
+
         public static ResultData SuccessData(object _data)
         {
             var result = new ResultData(_data, true);
@@ -18,8 +27,17 @@ namespace SysManager.Application.Helpers
         }
         public static ResultData ErrorData(object _data)
         {
-            var result = new ResultData(_data,false);
-            return result;
+            if (_data.GetType() == typeof(string))
+            {
+                var _error = new ErrorResponse((string)_data);
+                return new ResultData(_error, false);
+            }
+            else if (_data.GetType() == typeof(List<string>))
+            {
+                var _error = new ErrorResponse((List<string>)_data);
+                return new ResultData(_error, false);
+            }
+            return new ResultData(_data,false);
         }
 
         public static IActionResult Convert(ResultData _resultData)

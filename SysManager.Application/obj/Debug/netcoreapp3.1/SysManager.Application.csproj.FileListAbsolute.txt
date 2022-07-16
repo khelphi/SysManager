@@ -7,3 +7,12 @@ F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Applic
 F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.dll
 F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.pdb
 F:\Meus Projetos\Cusros Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.csprojAssemblyReference.cache
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.AssemblyInfoInputs.cache
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.AssemblyInfo.cs
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.dll
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\obj\Debug\netcoreapp3.1\SysManager.Application.pdb
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.deps.json
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.dll
+F:\Meus Projetos\Cursos Tecnologia\BackEnd\Turma A\SysManagerA\SysManager.Application\bin\Debug\netcoreapp3.1\SysManager.Application.pdb
