@@ -36,11 +36,14 @@ namespace SysManager.Application.Validators.Product
                 })
                 .WithMessage(SysManagerErrors.Product_Put_BadRequest_Price_Must_Be_Exact.Description());
 
-            RuleFor(product => product.Name)
-                .Must(name =>
+            RuleFor(product => product)
+                .Must(product =>
                 {
-                    var exists = repository.GetProductByNameAsync(name).Result;
-                    return exists == null;
+                    var exists = repository.GetProductByNameAsync(product.Name).Result;
+                    if (exists != null)
+                        if (exists.Id != product.Id)
+                            return false;
+                    return true;
                 })
                 .WithMessage(SysManagerErrors.Product_Put_BadRequest_Name_Cannot_Be_Duplicated.Description());
 
